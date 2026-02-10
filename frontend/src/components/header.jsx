@@ -1,8 +1,8 @@
-function Header(){
+function header(){
     return(
-        <Header><h1>this is header of the website</h1></Header>
+        <header><h1>this is header of the website</h1></header>
         
         
     );
 }
-export default Header;
+export default header;
