@@ -3,13 +3,16 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import Footer from './components/Footer'
 import './App.css'
+import Header from './components/header'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <>
+  
       <div>
+        
         <a href="https://vite.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
